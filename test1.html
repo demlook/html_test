@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>test</title>
+<style type="text/css">
+	
+#bgc {background-color:rgba(255,255,0,0.05);}	
+
+</style>
+
+</head>
+<body id="bgc">
+
+<form action="www.baidu.com" method="post">
+<fieldset>
+<legend><h3>Personal Information:</h3></legend>
+	Name:<br>
+	<input type="text" name="name"><br>
+	Password:<br>
+	<input type="password" name="passwd"><br>
+	<hr />
+	Sex:<br>
+	<input type="radio" name="sex" id="male">
+	<label for="male">Male</label> 
+	<input type="radio" name="sex" id="female">
+	<label for="female">Female</label><br>
+	<hr />
+	City:<br>
+	<select name="city">
+		<option value="Beijing">Beijing</option>
+		<option value="Shanghai" selected>Shanghai</option>
+		<option value="Guangzhou">Guangzhou</option>
+		<option value="Shenzhen">Shenzhen</option>
+	</select><br>
+	<hr />
+	Favorite Fruit:<br>
+	<input type="checkbox" name="fruit" id="apple">
+	<label for="apple">Apple</label>
+	<input type="checkbox" name="fruit" id="orange">
+	<label for="orange">Orange</label>
+	<input type="checkbox" name="fruit" id="banana">
+	<label for="banana">Banana</label>
+	<input type="checkbox" name="fruit" id="strawberry">
+	<label for="strawberry">Strawberry</label>
+</fieldset><br>
+
+<fieldset>
+<legend><h3>个人简介:</h3></legend>
+
+	<table width="461" height="123" border="1" cellpadding="10" cellspacing="0">
+		<tr>
+			<th bgcolor="#95ACC7">name</th>
+			<th bgcolor="#95ACC7">relationship</th>
+			<th bgcolor="#95ACC7">age</th>
+			<th bgcolor="#95ACC7">Occupation</th>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+<hr />
+
+	<textarea rows="8" cols="55">introduce yourself(no less than 100 words.)</textarea>
+</fieldset>
+<input type="reset" value="reset">
+<input type="submit" value="submit">
+</form>
+
+</body>
+</html>

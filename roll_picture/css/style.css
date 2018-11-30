@@ -1,0 +1,38 @@
+/*轮播图的样式*/
+section#lunbotu {   box-shadow: 1px 4px 15px #A39F9F;}
+div.sswrap a {  color: #fff;}
+div#slide-holder {  width : 628px;  height : 278px;}
+div#slide-runner {  width : 628px;  height : 278px; overflow : hidden;  position : absolute;}
+div#slide-holder img {  margin : 0; display : none; position : absolute;}
+div#slide-controls {    left : 0;   bottom : 0px;   width : 628px;  height : 46px;  display : none; position : absolute;}
+div#slide-controls p.text { float : left;   color : #fff;   display : inline;   font-size : 10px;   line-height : 16px; margin : 15px 0 0 20px; text-transform : uppercase;}
+p#slide-nav {   float : right;  height : 24px;  display : inline;   margin : 11px 15px 0 0;}
+p#slide-nav a { float : left;   width : 24px;   height : 24px;  display : inline;   font-size : 11px;   margin : 0 5px 0 0; line-height : 24px; font-weight : bold; text-align : center;    text-decoration : none; background-position : 0 0;  background-repeat : no-repeat;}
+p#slide-nav a.on {  background-position : 0 -24px;}
+p#slide-nav a { background-image : url(http://127.0.0.1/js/images/silde-nav.png);}
+#content_warp { margin-top: 20px;}
+article {   width: 628px;   display: inline-block;  vertical-align: top;}
+aside { width: 347px;   display: inline-block;  margin-left: 20px;}
+section#silid { width: 628px;   box-shadow: 1px 4px 15px #333;}
+div.newtitle {  height: 45px;   line-height: 45px;  background: url(http://127.0.0.1/js/images/title_bg.jpg) repeat-x;   padding-left: 10px;}
+div.newtitle a {    font-weight: 400;   color: #444;    font-size: 16px;}
+#newlist ul li {    font-size: 0}
+#newlist ul li a {  display: inline-block;  vertical-align: top;    color: #fff;}
+#newlist ul li a img {  width: 315px;   height: 165px}
+#newlist ul li a.newwz {    width: 313px;   height: 165px;  background: #3598dc;    padding: 10px 15px; -moz-box-sizing: border-box;    -webkit-box-sizing: border-box; box-sizing: border-box; position: relative;}
+#newlist ul li a.newwz h3 { font-size: 18px;    height: 30px;   line-height: 30px;  border-bottom: 1px solid #FFF;}
+#newlist ul li a.newwz p {  font-size: 13px;    text-indent: 2em;   padding: 10px 0;    height: 124px;  overflow: hidden;   box-sizing: border-box;}
+.sjx {  width: 20px;    height: 20px;   position: absolute; left: -9px; top: 20px;  background: #3598dc;    transform: rotate(45deg);}
+section#hdlist_a li {   display: inline-block;  vertical-align: top;    margin-right: 9px;}
+section#hdlist_a li:img{width:150px;height:150px}
+section#hdlist_a li:last-child {    margin-right: 0;}
+section#hdlist_b {  display:inline-block;   width: 469px;   margin-right: 9px;  vertical-align:top; }
+section#hdlist_b li {   width:100%; display:inline-block;   vertical-align:bottom;  white-space:nowrap; overflow:hidden;    text-overflow: ellipsis;    counter-increment: mycounter;   margin-top:13px;}
+section#hdlist_b li:before {    content: counter(mycounter);    background: #444;   color: #FFF;    margin-right: 10px; padding:2px 7px;}
+section#hdlist_b li:nth-child(1):before,section#hdlist_b li:nth-child(2):before,section#hdlist_b li:nth-child(3):before{background:#39C}
+section#hdlist_b li:last-child:before{padding:4px;font-size:12px;}
+section#hdlist_b li a {color: #444;}
+section#hdlist_b li a:hover{text-shadow:1px 4px 9px #444;transition: text-shadow 1s linear;}
+section#hdlist_c {  display: inline-block;}
+section#hdlist_c li:first-child,section#hdlist_c li:first-child img{width:150px;height:205px;margin-bottom:10px;}
+section#hdlist_c li:last-child,section#hdlist_c li:last-child img{width:150px;height:150px;}
