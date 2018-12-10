@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>细线表格</title>
+</head>
+<body>
+
+<!-- 正常粗线表格 -->
+<!-- 快捷生成n行m列的表格table>tr*n>td*m -->
+<!-- cellspacing 单元格之间的距离；cellpadding 单元格与内容之间的空白 -->
+	<table border="1" cellspacing="0" width="500" align="center">
+		<thead>
+			<caption>personal information</caption>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Sex</th>
+				<th>Age</th>
+			</tr>
+			</thead>
+
+		<tbody>
+			<tr>
+				<td>001</td>
+				<td>zhangsan</td>
+				<td>男</td>
+				<td>20</td>
+			</tr>
+			<tr>
+				<td>002</td>
+				<td>hanmeimei</td>
+				<td>女</td>
+				<td>22</td>
+			</tr>
+		</tbody>
+
+		<tfoot>
+			<tr>
+				<td colspan="4">备注</td>
+			</tr>
+		</tfoot>
+	</table>
+
+<!-- 细线表格 -->
+	<table border="0" cellspacing="1" bgcolor="#333" width="500" align="center">
+		<thead>
+			<caption>personal information</caption>
+			<tr bgcolor="#fff">
+				<th>Id</th>
+				<th>Name</th>
+				<th>Sex</th>
+				<th>Age</th>
+			</tr>
+			</thead>
+
+		<tbody>
+			<tr bgcolor="#fff">
+				<td>001</td>
+				<td>zhangsan</td>
+				<td>男</td>
+				<td>20</td>
+			</tr>
+			<tr bgcolor="#fff">
+				<td>002</td>
+				<td>hanmeimei</td>
+				<td>女</td>
+				<td>22</td>
+			</tr>
+		</tbody>
+
+		<tfoot>
+			<tr bgcolor="#fff">
+				<td colspan="4">备注</td>
+			</tr>
+		</tfoot>
+	</table>
+
+	
+</body>
+</html>
